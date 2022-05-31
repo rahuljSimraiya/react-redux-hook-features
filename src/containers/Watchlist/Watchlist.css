@@ -1,0 +1,44 @@
+.skill-data-header-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.skill-data-header {
+	font-size: 32px;
+}
+.starting-char {
+	background: #3f3f4a;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #ffffff;
+    border-radius: 20px;
+}
+.listScrool{
+    max-height: 380px;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+button.btn.btn-danger.btn-sm{
+    font-size: 10px;
+    width: 50px;
+    height: 23px;
+    padding: 5px !important;
+    line-height: 0;
+}
+button.btn.btn-danger.btn-sm:focus{
+    box-shadow: none;
+    opacity: 0.8;
+}
+ 
+.ticker-pipe{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 210px;
+    padding: 5px;
+    cursor: pointer;
+}

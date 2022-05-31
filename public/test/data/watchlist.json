@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name":"Nathaniel Bustos",
+        "role":"Manager"
+    },
+    {
+        "id": 2,
+        "name":"Latanya Kinard",
+        "role":"Web Designer"
+    },
+    {
+        "id": 3,
+        "name":"George Lujan",
+        "role":"Founder"
+    },
+    {
+        "id": 4,
+        "name":"Bustosn",
+        "role":"Manager"
+    },
+    {
+        "id": 5,
+        "name":"Samantha",
+        "role":"Manager"
+    }
+]

@@ -1,0 +1,19 @@
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.aap-main-content{
+  margin-top: 18px;
+  padding: 0 2rem 2rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .aap-main-content {
+    padding: initial;
+  }
+}
+

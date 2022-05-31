@@ -1,0 +1,64 @@
+.skill-data-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-data-header {
+  font-size: 32px;
+}
+.skill-data-chart {
+  color: #dedefd !important;
+}
+.skill-data-chart tspan {
+  fill: #77778e !important;
+}
+.apexcharts-tooltip.apexcharts-theme-light {
+  background: #3f3f4a !important;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  background: #3f3f4a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.apexcharts-tooltip-title {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+button.dropdown-select {
+  color: #77778e;
+  display: block;
+  padding-left: 8px;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: transparent;
+  background-color: #32323e !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  font-size: 12px;
+  min-width: 118px;
+  height: 35px;
+  border-radius: 5px;
+}
+.dropdown-select .dropdown-item{
+  font-size: 12px;
+  background-color: #484856;
+}
+
+.dropdown-select .dropdown-menu{
+  width: 118px !important;
+  box-shadow: 0px 8px 14.72px 1.28px #2a2635;
+  max-height: 200px;
+  background-color: #484856 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.btn.dropdown-toggle ~ .dropdown-menu, ul.dropdown-menu li.dropdown ul.dropdown-menu{
+  background: transparent !important;
+  padding: 0 !important;
+}
+.dropdown-item:focus, .dropdown-item.active, .dropdown-item:active{
+  background-color: #2a2635;
+  color:#fff;
+}
+#dropdown-basic {
+  text-transform: capitalize;
+}
